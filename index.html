@@ -108,6 +108,7 @@
       <div class="editable-projects">
         <h2>Additional Projects</h2>
         <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+          <em>Note: Edit the titles and descriptions below directly in the HTML to add your additional projects</em>
         </p>
 
         <div class="editable-project">
@@ -158,7 +159,7 @@
 
     <section id="contact">
       <h2>Contact Me</h2>
-
+      
       <div style="text-align: center; margin-bottom: 2rem;">
         <p style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);">
           <strong>📧 Email:</strong> <a href="mailto:kevinguyenrr@gmail.com" style="color: var(--accent-primary); text-decoration: none;">kevinguyenrr@gmail.com</a>
@@ -167,7 +168,7 @@
           <strong>📱 Phone:</strong> <a href="tel:+18325253584" style="color: var(--accent-primary); text-decoration: none;">832-525-3584</a>
         </p>
       </div>
-      
+
       <form action="https://formspree.io/f/mzzvvejb" method="POST" class="contact-form">
         <div class="form-group">
           <label for="name">Your Name</label>
@@ -180,6 +181,10 @@
         <div class="form-group">
           <label for="phone">Your Phone (optional)</label>
           <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
         </div>
         <button type="submit" class="cta-button">Send Message</button>
       </form>
